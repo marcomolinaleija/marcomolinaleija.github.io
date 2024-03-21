@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head> <link rel="stylesheet" href="style.css">
-<meta charset="utf-8" />
-<script type="text/javascript">
-function ShowAlert() {
-	alert("Información: el contenido no está disponible por el momento. intenta nuevamente más tarde. si el problema persiste, comunícate con el desarrollador");
-	return false;
-	}
-</script>
-<title>Marco-ml</title>
+<head> 
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+    function ShowAlert() {
+        alert("Información: el contenido no está disponible por el momento. intenta nuevamente más tarde. si el problema persiste, comunícate con el desarrollador");
+        return false;
+    }
+    </script>
+    <title>Marco-ml</title>
 </head>
 <body>
-    <nav>
-        <a href="descargas.html"onclick="return ShowAlert();">Haz clic aquí para ir a la página de descargas.</a>
-        <a href="contacto.html">Contáctame.</a>
-        <a href="about.html"onclick="return ShowAlert();">Sobre mí.</a>
+    <a href="#principal">Ir al contenido principal</a>
+    <nav aria-label="enlaces principales">
+    <ul>
+	
+        <li> <a href="descargas.html" onclick="return ShowAlert();">Haz clic aquí para ir a la página de descargas.</a></li>
+        <li> <a href="contacto.html">Contáctame.</a></li>
+        <li> <a href="about.html" onclick="return ShowAlert();">Sobre mí.</a></li>
     </nav>
     <hr>
-    <h1>¡Hola!</h1>
+    <h1 id="principal">¡Hola!</h1>
     <p>Bienvenido/a a esta página web.</p>
     <p>El propósito de la misma es simple: tener un espacio para mí. Publicaciones, recursos, descargas de programas que estén liberados y creados por mí.</p>
     <p>En la parte superior de la página, podrán encontrar distintos enlaces que los llevarán a páginas como:</p>
